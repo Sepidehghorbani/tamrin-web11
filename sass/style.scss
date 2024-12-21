@@ -1,0 +1,60 @@
+@use "all";
+.mino{
+    color: crimson;
+    text-align: center;
+}
+.bg{
+    background-color: mistyrose;
+    height: 40px;
+}
+span.text-purple{
+    color: purple;
+}
+a{
+    text-decoration: none;
+}
+.bg-e{
+    background-color: beige;
+    height: 40px;
+}
+.bg-y{
+    background-color: rgb(237, 255, 202);
+}
+.bg-d{
+    background-color: darkgray;
+}
+.bg-i{
+    background-color: rgb(152, 255, 255);
+}
+.bg-o{
+    background-color: rgb(255, 211, 195);
+}
+.bg-p{
+    background-color: plum;
+}
+span.text-w{
+color: white;
+}
+span.text-r{
+    color: red;
+}
+span.text-p{
+    color: mediumvioletred;
+}
+.table{
+    & ,
+    & tr ,
+    & td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+}
+.table1{
+    & ,
+    & th ,
+    & tr ,
+    & td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+}
